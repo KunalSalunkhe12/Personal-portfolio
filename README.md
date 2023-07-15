@@ -1,4 +1,4 @@
-#Portfolio 🙍‍♂️
+# Portfolio 🙍‍♂️
 
 This is my personal portfolio website. It is built with [Astro](https://astro.build), [React](https://react.dev/) and [TailwindCSS](https://tailwindcss.com).
 
