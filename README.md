@@ -1,13 +1,11 @@
-# Astro + React Example
+#Portfolio 🙍‍♂️
 
-```
-npm create astro@latest -- --template framework-react
-```
+This is my personal portfolio website. It is built with [Astro](https://astro.build), [React](https://react.dev/) and [TailwindCSS](https://tailwindcss.com).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/framework-react)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/framework-react)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/framework-react/devcontainer.json)
+## Tech Stack
 
-This example showcases Astro working with [React](https://react.dev).
+[![Tech](https://skillicons.dev/icons?i=astro,react,tailwind)](https://skillicons.dev)
 
-Write your React components as `.jsx` or `.tsx` files in your project.
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and customize it to suit your own needs.
