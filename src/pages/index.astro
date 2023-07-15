@@ -1,36 +1,14 @@
 ---
-// Component Imports
-import Counter from '../components/Counter';
-const someProps = {
-	count: 0,
-};
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
+import MainLayouts from "../layouts/MainLayouts.astro";
+import Intro from "../components/Intro.astro";
+import Tech from "../components/Tech.astro";
+import Projects from "../components/Projects.astro";
+import Contact from "../components/Contact.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<style>
-			html,
-			body {
-				font-family: system-ui;
-				margin: 0;
-			}
-			body {
-				padding: 2rem;
-			}
-		</style>
-	</head>
-	<body>
-		<main>
-			<Counter {...someProps} client:visible>
-				<h1>Hello, React!</h1>
-			</Counter>
-		</main>
-	</body>
-</html>
+<MainLayouts title="Home">
+  <Intro />
+  <Tech />
+  <Projects />
+  <Contact />
+</MainLayouts>

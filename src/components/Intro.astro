@@ -1,0 +1,28 @@
+---
+import introImage from "../images/intro-img.png";
+---
+
+<section
+  id="Home"
+  class="h-screen flex flex-col lg:flex-row justify-center items-center gap-10"
+>
+  <div class="flex flex-col items-center lg:items-start">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold mb-6">
+      KUNAL SALUNKHE
+    </h1>
+    <p class="text-xl md:text-2xl font-medium text-primary">
+      FRONT-END WEB DEVELOPER
+    </p>
+    <a href="resume/resume.pdf">
+      <button
+        class="border-primary border-2 text-white font-medium py-2 px-4 mt-6 rounded-lg hover:bg-primary hover:text-black duration-300 ease-in-out"
+        >Resume</button
+      >
+    </a>
+  </div>
+  <img
+    class="w-[20rem] md:w-[25rem] lg:w-[30rem] left-10 duration-1000"
+    src={introImage}
+    alt="Boy holding phone"
+  />
+</section>

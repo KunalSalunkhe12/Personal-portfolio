@@ -1,0 +1,23 @@
+---
+import Navbar from "../components/Navbar.jsx";
+import "@fontsource-variable/oswald";
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>KunalSalunkhe - {title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  </head>
+  <body class="bg-black text-white py-5 px-6 md:px-10 font-oswald">
+    <header>
+      <Navbar client:load />
+    </header>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
